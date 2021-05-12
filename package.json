@@ -1,6 +1,6 @@
 {
   "name": "grunt-phpmd",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Grunt plugin for running PHP Mess Detector.",
   "main": "tasks/phpmd.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alappe/grunt-phpmd.git"
+    "url": "https://github.com/gotcha9999/grunt-phpmd"
   },
   "keywords": [
     "gruntplugin",
@@ -24,10 +24,8 @@
     "url": "http://www.jamescryer.com/"
   }],
   "devDependencies": {
-    "grunt": "~0.4.0"
+    "coffeescript": "^2.5.1",
+    "grunt": "^1.4.0"
   },
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/alappe/grunt-phpmd/issues"
-  }
+  "license": "BSD"
 }
